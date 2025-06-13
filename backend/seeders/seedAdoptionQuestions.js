@@ -40,3 +40,4 @@ const seedAdoptionQuestions = async () => {
         mongoose.connection.close();
     }
 };
+

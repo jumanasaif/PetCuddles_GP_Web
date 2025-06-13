@@ -164,3 +164,4 @@ const TrialModal = ({ guideId, placeId, placeName, onClose, onSuccess }) => {
 };
 
 export default TrialModal;
+

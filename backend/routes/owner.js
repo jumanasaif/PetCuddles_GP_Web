@@ -7,3 +7,4 @@ const router = express.Router();
 router.put("/UpdateOwnerProfile", userController.updateOwnerProfile);
 router.get("/users/me", authMiddleware, userController.getUserProfile);
 module.exports = router;
+

@@ -242,3 +242,4 @@ activeChat.messages.map((msg, index) => {
 };
 
 export default ChatWindow;
+

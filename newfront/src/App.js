@@ -580,7 +580,7 @@ const AppContent = () => {
  </WebSocketProvider>
   );
 };
-const stripePromise = loadStripe('pk_test_51RIbAR4CVrHa7X9Fp91KE2Z4QVOEmVZkzQSPCKJ6kfmdV8Xl05h5AShOv2zpRPiZokuuzZm6KrZ72zftjt7p5pcv00slXAaYFg');
+const stripePromise = loadStripe('');
 
 const App = () => {
   return (
@@ -593,3 +593,4 @@ const App = () => {
 };
 
 export default App;
+

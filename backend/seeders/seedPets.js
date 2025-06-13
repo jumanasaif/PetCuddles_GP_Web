@@ -86,3 +86,4 @@ const seedPets = async () => {
         mongoose.connection.close();
     }
 };
+

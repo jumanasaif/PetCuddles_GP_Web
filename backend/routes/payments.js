@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const stripe = require('stripe')('sk_test_51RIbAR4CVrHa7X9FbfpOePCnA9rtSPDWD9AA65h9eAJltnQYfh3PCmkFWwCRxPGPdyoJ67NixHMwHesFzwYMxeav00nbbiit6x');
+const stripe = require('stripe')('');
 const Admin = require('../models/Admin');
 const Clinic = require('../models/Clinic');
 const Payment = require('../models/Payment');

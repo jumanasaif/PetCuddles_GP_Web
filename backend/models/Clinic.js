@@ -227,3 +227,4 @@ clinicSchema.methods.addPayment = async function(paymentId) {
 const Clinic = mongoose.model('Clinic', clinicSchema);
 
 module.exports = Clinic;
+

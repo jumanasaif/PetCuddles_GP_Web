@@ -76,3 +76,4 @@ productSchema.methods.checkStockStatus = function() {
 
 module.exports = mongoose.model('Product', productSchema);
 
+

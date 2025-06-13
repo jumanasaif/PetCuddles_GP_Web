@@ -1329,3 +1329,4 @@ const AllEventsModal = ({ events, onClose, onAttendanceChange, currentUserId, on
 };
 
 export default Community;
+

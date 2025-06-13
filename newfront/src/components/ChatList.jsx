@@ -152,3 +152,4 @@ const currentUser = JSON.parse(localStorage.getItem('user')) ||
 };
 
 export default ChatList;
+

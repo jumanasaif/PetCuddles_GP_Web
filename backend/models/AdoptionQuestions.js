@@ -10,3 +10,4 @@ const AdoptionQuestionSchema = new mongoose.Schema({
 const AdoptionQuestion = mongoose.model('AdoptionQuestion', AdoptionQuestionSchema);
 
 module.exports = AdoptionQuestion;
+

@@ -102,3 +102,4 @@ const getCoordinates = async (village) => {
 
 
 module.exports = { getUserProfile, updateOwnerProfile };
+

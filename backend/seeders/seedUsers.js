@@ -58,3 +58,4 @@ const seedUsers = async () => {
 
 // Run the Seeder
 seedUsers();
+

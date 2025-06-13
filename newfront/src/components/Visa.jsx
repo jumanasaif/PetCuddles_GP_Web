@@ -281,3 +281,4 @@ const VisaInformationForm = ({ amount: initialAmountProp }) => {
 };
 
 export default VisaInformationForm;
+
