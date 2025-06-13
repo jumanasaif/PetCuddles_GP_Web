@@ -1,0 +1,271 @@
+.container {
+    background-color: #f6f4e8;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .scroll-container {
+    padding-bottom: 40px;
+  }
+  
+  .overlay {
+    background-color: rgba(246, 244, 232, 0.9);
+    padding: 20px;
+    padding-top: 50px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(29, 49, 36, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #1d3124;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .title {
+    font-size: 32px;
+    color: #1d3124;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #e59560;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 500;
+  }
+  
+  .toggle-container {
+    display: flex;
+    background-color: #bacec1;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .toggle-option {
+    flex: 1;
+    padding: 12px 0;
+    border-radius: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .toggle-option-active {
+    background-color: #1d3124;
+  }
+  
+  .toggle-text {
+    color: #1d3124;
+    font-size: 16px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 600;
+  }
+  
+  .toggle-text-active {
+    color: #f6f4e8;
+  }
+  
+  .savings-badge {
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    background-color: #e59560;
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+  
+  .savings-text {
+    color: #f6f4e8;
+    font-size: 12px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+  }
+  
+  .plan-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 20px rgba(29, 49, 36, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .plan-card.monthly {
+    transform: translateY(0);
+  }
+  
+  .plan-card.yearly {
+    transform: translateY(-15px);
+  }
+  
+  .plan-header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .plan-price {
+    font-size: 40px;
+    color: #1d3124;
+    margin-bottom: 5px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+  }
+  
+  .plan-period {
+    font-size: 18px;
+    color: #e59560;
+    font-family: 'Laila', sans-serif;
+    font-weight: 500;
+  }
+  
+  .features-container {
+    margin-bottom: 30px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .check-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #bacec1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+  
+  .check-text {
+    color: #1d3124;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+  }
+  
+  .feature-text {
+    flex: 1;
+    font-size: 16px;
+    color: #1d3124;
+    font-family: 'Laila', sans-serif;
+    font-weight: 500;
+  }
+  
+  .subscribe-button {
+    background-color: #e59560;
+    padding: 16px 0;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button-text {
+    color: #f6f4e8;
+    font-size: 20px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  .terms-text {
+    color: #bacec1;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: 'Laila', sans-serif;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+  }
+  
+  .error-text {
+    color: #e74c3c;
+    font-size: 18px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .retry-button {
+    margin-top: 20px;
+    background-color: #e59560;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .retry-button-text {
+    color: #f6f4e8;
+    font-size: 16px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 600;
+  }
+  
+  .info-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .info-title {
+    font-size: 20px;
+    color: #1d3124;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .info-bullet {
+    color: #e59560;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .info-text {
+    font-size: 16px;
+    color: #1d3124;
+    font-family: 'Laila', sans-serif;
+    font-weight: 500;
+    flex: 1;
+  }

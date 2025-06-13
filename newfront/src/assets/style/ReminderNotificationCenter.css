@@ -1,0 +1,157 @@
+/* styles/NotificationCenter.css */
+.notification-center {
+  max-width: 800px;
+  margin-top: 250px;
+
+  font-family: 'Arial', sans-serif;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+  position: relative;
+}
+
+.tabs button.active {
+  color: #325747;
+  font-weight: bold;
+}
+
+.tabs button.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #325747;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notification {
+  display: flex;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.notification:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.notification-icon {
+  font-size: 24px;
+  color: #325747;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification h4 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.notification p {
+  margin: 0 0 10px 0;
+  color: #666;
+}
+
+.notification-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.meta-item {
+  display: flex;
+  gap: 5px;
+}
+
+.notification-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 120px;
+}
+
+.notification-actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.confirm-btn {
+  background-color: #10B981;
+  color: white;
+}
+
+.reschedule-btn {
+  background-color: #3B82F6;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #EF4444;
+  color: white;
+}
+
+.details-btn {
+  background-color: #E5E7EB;
+  color: #333;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  background-color: #F9FAFB;
+  border-radius: 8px;
+}
+
+/* Type-specific styling */
+.notification[data-type="appointment"] .notification-icon {
+  color: #3B82F6;
+}
+
+.notification[data-type="follow_up"] .notification-icon {
+  color: #8B5CF6;
+}
+
+.notification[data-type="vaccination"] .notification-icon {
+  color: #EC4899;
+}
+
+.notification[data-type="medication"] .notification-icon {
+  color: #F59E0B;
+}
