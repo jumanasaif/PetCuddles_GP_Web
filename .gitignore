@@ -15,3 +15,8 @@ backend/uploads/
 
 # Node modules (just in case)
 node_modules/
+.env
+*.key
+*.pem
+*.secret
+stripe_keys.txt
