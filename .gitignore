@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+AI/**/venv/
+
+# Ignore model files
+*.pth
+
+# Ignore large media uploads
+backend/uploads/
+
+# Ignore typical Node.js files
+node_modules/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# VSCode or IDE settings
+.vscode/
+*.log
+
+# Ignore environment config files (if any)
+.env
