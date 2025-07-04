@@ -11,12 +11,16 @@
 - Health tracking: vaccinations, medications, lab results
 - AI-powered image analysis for skin issues and behavioral insights
 - Nutrition assistant to suggest daily meals and track weight
+- Interactive map displaying nearby veterinary clinics and pet stores
 - Book vet appointments and chat with experts
 - Report lost pets and request temporary pet-sitting
 - Browse and adopt pets through a matchmaking system
 - Access community content: articles, videos, events
 - Receive alerts for emergencies and weather-related dangers
-- Get reminders for feeding, walking, and veterinary visits
+- Get reminders for feeding, and veterinary visits
+- Digital pet ID cards with QR code access for quick identification
+- Travel guide for pet-friendly accommodations
+- Educational library with training and emergency care resources
 
 ### For Clinics & Veterinarians
 - Sign-up with license upload and working hours
@@ -24,16 +28,22 @@
 - Subscription plans (monthly/yearly) with Visa payment
 - Receive appointment requests and chat with pet owners
 - Upload lab results and health records
+- Add doctors and create account for them 
+- Manage Patients, services provided and vaccination 
+- Provide temporary care for pets 
 
 ### For Pet Shops
 - List products and manage orders via Visa payments
 - Apply coupons and handle delivery details
+- Inventory tracking for pet supplies with restock reminders 
 - Communicate with customers through the platform
 
 ### For Administrators
 - Approve or reject clinic registrations
-- Manage user roles (owner, vet, shop, admin)
+- Manage user roles (owner, vet, shop, doctors)
 - Oversee content, service subscriptions, and AI model settings
+- Mange educational library ( add,edit,delete the content )
+- Manage Weather, Health alerts  
 
 ---
 
