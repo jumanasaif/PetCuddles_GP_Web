@@ -1,3 +1,45 @@
-# PetCuddles_GP_Web
-# PetCuddles_GP_Web
+# PetCuddles 🐾
 
+**PetCuddles** is a comprehensive web and mobile platform designed for pet care in Palestine. It connects pet owners, clinics, veterinarians, and shops to provide efficient, AI-driven pet health, nutrition, adoption, shopping, and emergency services in one unified system.
+
+---
+
+## 📚 Features
+
+### For Pet Owners
+- Create and manage pet profiles (images, age, breed, weight, etc.)
+- Health tracking: vaccinations, medications, lab results
+- AI-powered image analysis for skin issues and behavioral insights
+- Nutrition assistant to suggest daily meals and track weight
+- Book vet appointments and chat with experts
+- Report lost pets and request temporary pet-sitting
+- Browse and adopt pets through a matchmaking system
+- Access community content: articles, videos, events
+- Receive alerts for emergencies and weather-related dangers
+- Get reminders for feeding, walking, and veterinary visits
+
+### For Clinics & Veterinarians
+- Sign-up with license upload and working hours
+- Admin approval with Ministry of Agriculture stamp verification
+- Subscription plans (monthly/yearly) with Visa payment
+- Receive appointment requests and chat with pet owners
+- Upload lab results and health records
+
+### For Pet Shops
+- List products and manage orders via Visa payments
+- Apply coupons and handle delivery details
+- Communicate with customers through the platform
+
+### For Administrators
+- Approve or reject clinic registrations
+- Manage user roles (owner, vet, shop, admin)
+- Oversee content, service subscriptions, and AI model settings
+
+---
+
+## 🚀 Installation & Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/PetCuddles.git
+   cd PetCuddles
