@@ -51,5 +51,18 @@
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/PetCuddles.git
+   git clone https://github.com/jumanasaif/PetCuddles_GP_Web.git
    cd PetCuddles
+2. Install dependencies:
+     npm install
+3. Configure environment variables (.env):
+    MONGO_URI=<your MongoDB URI>
+   JWT_SECRET=<your JWT secret>
+   VISA_API_KEY=<your Visa payment API credentials>
+   PYTHON_LICENSE_SERVICE=http://localhost:<any port>/verify-license
+   PYTHON_DISEASE_SERVICE=http://localhost:<any port>/predict
+   OPENAI_API_KEY= <your OpenAi api key >
+   WEATHER_API_KEY=< your OpenWeather api key >
+4. Access the Web site:
+    http://localhost:3000
+
