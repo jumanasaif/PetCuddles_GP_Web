@@ -56,7 +56,7 @@
 2. Install dependencies:
      npm install
 3. Configure environment variables (.env):
-    - MONGO_URI=<your MongoDB URI>
+   - MONGO_URI=<your MongoDB URI>
    - JWT_SECRET=<your JWT secret>
    - VISA_API_KEY=<your Visa payment API credentials>
    - PYTHON_LICENSE_SERVICE=http://localhost:<any port>/verify-license
