@@ -1,6 +1,8 @@
 # PetCuddles 🐾
 
-**PetCuddles** is a comprehensive web and mobile platform designed for pet care in Palestine. It connects pet owners, clinics, veterinarians, and shops to provide efficient, AI-driven pet health, nutrition, adoption, shopping, and emergency services in one unified system.
+**This project is a Graduation Project submitted in partial fulfillment of the requirements for the degree of Bachelor of Computer Engineering at An-Najah National University.**
+**PetCuddles** is a comprehensive web and mobile platform for pet care, designed to support pet owners, clinics, veterinarians, and shops in Palestine. This repository contains the **web version** of the platform, which offers features such as pet health tracking, clinic services, AI-based analysis, appointment booking, adoption, and more — all within a unified system that enhances pet care accessibility and organization.
+
 
 ---
 
@@ -65,4 +67,19 @@
    - WEATHER_API_KEY= < your OpenWeather api key >
 4. Access the Web site:
     http://localhost:3000
+
+## 🔧 Method Used
+
+- Backend: Node.js, Express, MongoDB
+
+- Frontend: React.js , Tailwind
+
+- AI Services: Python
+
+- Test Api: Postman
+
+- Chat & Notification: WebSocket
+
+- Other: EmailJs , Visa Strip Integration for payment
+
 
