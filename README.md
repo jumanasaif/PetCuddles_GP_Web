@@ -2,12 +2,14 @@
 
 **This project is a Graduation Project submitted in partial fulfillment of the requirements for the degree of Bachelor of Computer Engineering at An-Najah National University.**
 
-**PetCuddles** is a comprehensive web and mobile platform for pet care, designed to support pet owners, clinics, veterinarians, and shops in Palestine. This repository contains the **web version** of the platform, which offers features such as pet health tracking, clinic services, AI-based analysis, appointment booking, adoption, and more — all within a unified system that enhances pet care accessibility and organization.
+**PetCuddles** is a comprehensive web and mobile platform for pet care, designed to support pet owners, clinics, and shops in Palestine. This repository contains the **web version** of the platform, which offers features such as pet health tracking, clinic services, AI-based analysis, appointment booking, adoption, and more — all within a unified system that enhances pet care accessibility and organization.
 
 
 ---
 
 ## 📚 Features
+
+**We have 5 type of accounts : pet owner, shop, clinic, doctor and admin account**
 
 ### For Pet Owners
 - Create and manage pet profiles (images, age, breed, weight, etc.)
