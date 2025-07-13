@@ -32,8 +32,13 @@
 - Receive appointment requests and chat with pet owners
 - Upload lab results and health records
 - Add doctors and create account for them 
-- Manage Patients, services provided and vaccination 
+- Manage Patients, services provided vaccination and laboratory tests 
 - Provide temporary care for pets 
+
+### For Doctors 
+- Manage appointments and chat with pet owners
+- Upload lab results and health records
+- Manage Patients
 
 ### For Pet Shops
 - List products and manage orders via Visa payments
